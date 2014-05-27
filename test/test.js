@@ -22,6 +22,7 @@ test('can monitor changes for a single input', function(t) {
 
   observe.on('change', function(e) {
     t.deepEqual(e, {name: 'name', value: 'x'});
+    observe.cleanup();
   });
 
   var input = form.querySelector('[name=name]');
@@ -46,6 +47,7 @@ test('test multiple changes', function(t) {
         {name: 'paynow', value: true},
         {name: 'cardtype', value: 'AMEX'}
       ]);
+      observe.cleanup();
       t.end();
     }
   }
@@ -72,6 +74,7 @@ test('can change input value using obserable fields', function(t) {
   var input = form.querySelector('[name=name]');
   t.equals(input.value, 'y');
   t.equals(observe.fields.name(), 'y');
+  observe.cleanup();
 });
 
 test('can change select value using obserable fields', function(t) {
@@ -83,6 +86,7 @@ test('can change select value using obserable fields', function(t) {
   var input = form.querySelector('select');
   t.equals(input.value, 'AMEX');
   t.equals(observe.fields.cardtype(), 'AMEX');
+  observe.cleanup();
 });
 
 test('can change checkbox value using obserable fields', function(t) {
@@ -94,4 +98,5 @@ test('can change checkbox value using obserable fields', function(t) {
   var input = form.querySelector('[type=checkbox]');
   t.ok(input.checked);
   t.ok(observe.fields.paynow());
+  observe.cleanup();
 });
