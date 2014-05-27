@@ -1,0 +1,46 @@
+{
+  "name": "observable-form",
+  "description": "observable form",
+  "keywords": [
+    "observable",
+    "form",
+    "browserify"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jameskyburz/observable-form"
+  },
+  "author": {
+    "name": "James Kyburz",
+    "email": "james.kyburz@gmail.com"
+  },
+  "main": "index.js",
+  "version": "0.0.0",
+  "scripts": {
+    "test": "testling | faucet"
+  },
+  "testling": {
+    "files": "test/*.js",
+    "browsers": [
+      "ie/10..latest",
+      "chrome/20..latest",
+      "firefox/10..latest",
+      "safari/latest",
+      "opera/11.0..latest",
+      "iphone/6",
+      "ipad/6"
+    ]
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "faucet": "0.0.1",
+    "testling": "^1.6.1",
+    "browserify": "^4.1.5",
+    "tape": "^2.13.1",
+    "domify": "^1.2.2",
+    "simulate": "0.0.3"
+  },
+  "dependencies": {
+    "observable": "^2.1.3"
+  }
+}
