@@ -6,18 +6,9 @@ Observable form
 
 [![build status](https://api.travis-ci.org/JamesKyburz/observable-form.svg)](https://api.travis-ci.org/JamesKyburz/observable-form.svg)
 
-Try it out! [![view on requirebin](http://requirebin.com/badge.png)](http://requirebin.com/?gist=x)
+Try it out! [![view on requirebin](http://requirebin.com/badge.png)](http://requirebin.com/?gist=6f736c7153ae7e246b9d)
 
-main.js:
-
-``` js
-var gauge = require('gauge-progress')();
-gauge.start();
-gauge.progress(10, 100); //10%
-
-```
-
-use with [browserify](http://browserify.org):
+use with [browserify](http://browserify.org)
 
 # methods
 
@@ -27,9 +18,19 @@ var of = require('observable-form')
 
 ## var o = of(form);
 
-## o.on('change', cb) //callback is called with name and value of the change
+observe form
 
-##. o.cleanup() // cleanup event listeners
+## o.on('change', cb)
+
+callback is called with name and value of the change
+
+## o.fields
+
+fields is an object literal containing observable functions for each input
+
+## o.cleanup()
+
+cleanup event listeners
 
 # install
 
