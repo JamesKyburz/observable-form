@@ -33,7 +33,7 @@ ObservableForm.prototype._observe = function observe() {
 };
 
 function getObservable(input) {
-  if (input.nodeName === 'select') {
+  if (input.nodeName === 'SELECT') {
     return o.select(input);
   } else if (input.type === 'checkbox') {
     return o.input(input, 'checked', 'change');

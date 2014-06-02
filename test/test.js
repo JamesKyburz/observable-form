@@ -62,7 +62,7 @@ test('test multiple changes', function(t) {
 
   input = form.querySelector('[name=cardtype]');
   input.value = 'AMEX';
-  simulate.event(input, 'input');
+  simulate.event(input, 'change');
 });
 
 test('can change input value using obserable fields', function(t) {
