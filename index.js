@@ -1,14 +1,12 @@
 var o = require('observable');
-var em = require('events').EventEmitter;
+var EventEmitter = require('events').EventEmitter;
+var inherits = require('inherits');
 
 module.exports = ObservableForm;
-
-ObservableForm.prototype = Object.create(em.prototype);
+inherits(ObservableForm, EventEmitter);
 
 function ObservableForm(form) {
   if (!(this instanceof ObservableForm)) return new ObservableForm(form);
-  em.call(this);
-
   this.form = form;
   this.fields = {};
   this.listeners = [];
