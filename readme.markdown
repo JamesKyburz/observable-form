@@ -2,9 +2,9 @@
 
 Observable form
 
-[![browser support](https://ci.testling.com/jameskyburz/observable-form.png)](https://ci.testling.com/jameskyburz/observable-form)
+[![build status](https://secure.travis-ci.org/JamesKyburz/observable-form.svg)](http://travis-ci.org/JamesKyburz/observable-form)
 
-[![build status](https://api.travis-ci.org/JamesKyburz/observable-form.svg)](https://api.travis-ci.org/JamesKyburz/observable-form.svg)
+[![Sauce Test Status](https://saucelabs.com/browser-matrix/observable-form.svg)](https://saucelabs.com/u/observable-form)
 
 Try it out! [![view on requirebin](http://requirebin.com/badge.png)](http://requirebin.com/?gist=6f736c7153ae7e246b9d)
 
@@ -43,7 +43,7 @@ npm install observable-form
 # test
 
 ```
-npm test
+npm test -- --local
 ```
 
 # license
