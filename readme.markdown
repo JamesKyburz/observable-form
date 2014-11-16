@@ -28,6 +28,10 @@ callback is called with name and value of the change
 
 fields is an object literal containing observable functions for each input
 
+## o.toJSON
+
+a json representation of fields
+
 ## o.cleanup()
 
 cleanup event listeners

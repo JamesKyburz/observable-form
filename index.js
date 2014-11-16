@@ -40,6 +40,14 @@ function getObservable(input) {
   }
 }
 
+ObservableForm.prototype.toJSON = function toJSON() {
+  var self = this;
+  return Object.keys(this.fields).reduce(function(sum, key) {
+    sum[key] = self.fields[key]();
+    return sum;
+  }, {});
+};
+
 ObservableForm.prototype.cleanup = function cleanup() {
   this.listeners.forEach(stop);
   this.listeners = [];

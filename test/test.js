@@ -5,7 +5,7 @@ var domify = require('domify');
 
 var html =
   '<form>'+
-    '<input name="name">'+
+    '<input name="name" value="y">'+
     '<input name="paynow" type="checkbox" value="off">'+
     '<select name="cardtype">'+
       '<option>MASTERCARD<option>'+
@@ -15,6 +15,16 @@ var html =
   '</form>'
 ;
 var form = domify(html);
+
+test('fieldArray returns field values as an array', function(t) {
+  var observe = of(form);
+  t.plan(1);
+
+  t.deepEqual(
+    observe.toJSON(),
+    {name: 'y', paynow: false, cardtype: 'MASTERCARD'}
+  );
+});
 
 test('can monitor changes for a single input', function(t) {
   var observe = of(form);
