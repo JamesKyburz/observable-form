@@ -16,7 +16,7 @@ var html =
 ;
 var form = domify(html);
 
-test('fieldArray returns field values as an array', function(t) {
+test('toJSON returns field values as json', function(t) {
   var observe = of(form);
   t.plan(1);
 

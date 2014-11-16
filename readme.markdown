@@ -4,7 +4,7 @@ Observable form
 
 [![build status](https://secure.travis-ci.org/JamesKyburz/observable-form.svg)](http://travis-ci.org/JamesKyburz/observable-form)
 
-[![Sauce Test Status](https://saucelabs.com/browser-matrix/observable-form.svg)](https://saucelabs.com/u/observable-form)
+[![Sauce Test Status](https://saucelabs.com/browser-matrix/node-observable-form.svg)](https://saucelabs.com/u/node-observable-form)
 
 Try it out! [![view on requirebin](http://requirebin.com/badge.png)](http://requirebin.com/?gist=6f736c7153ae7e246b9d)
 
