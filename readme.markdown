@@ -47,7 +47,7 @@ npm install observable-form
 # test
 
 ```
-npm test -- --local
+npm test
 ```
 
 # license
