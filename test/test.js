@@ -50,7 +50,6 @@ test('test multiple changes', function(t) {
     verify();
   });
   function verify() {
-    console.log(changes);
     if (!pending) {
       t.deepEqual(changes, [
         {name: 'name', value: 'name'},
