@@ -3,7 +3,7 @@ bundler_args: --retry 4
 node_js:
 - '0.10'
 script:
-  travis_retry remove-saucelabs-jobs-by-build && npm run test-browsers
+  remove-saucelabs-jobs-by-build && travis_retry npm run test-browsers
 env:
   global:
   - secure: BnqR/CoUqgAjmpWia8Vz5s9DIlJ8rr3pkp33HpNhJ1+1x/qVJg0muWkazJ+/O4aqNJkZ66QmNiq+RJY2Nc4lpBmjN8ColZcI/tXwJ0L+oi/aRTLzYrwzKG5yklxbev2fZe2AQ95jkixPV1+xNOuIvZkT4V4dyCCaQLeK4wOIuew=
