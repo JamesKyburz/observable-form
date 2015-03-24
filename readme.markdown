@@ -6,7 +6,7 @@ Observable form
 
 [![Sauce Test Status](https://saucelabs.com/browser-matrix/node-observable-form.svg)](https://saucelabs.com/u/node-observable-form)
 
-Try it out! [![view on requirebin](http://requirebin.com/badge.png)](http://requirebin.com/?gist=6f736c7153ae7e246b9d)
+Try it out! [![view on requirebin](http://requirebin.com/badge.png)](http://requirebin.com/?gist=68acff1a09de5809378d)
 
 use with [browserify](http://browserify.org)
 
