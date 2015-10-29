@@ -24,7 +24,7 @@
   "devDependencies": {
     "domify": "1.4.0",
     "faucet": "0.0.1",
-    "remove-saucelabs-jobs-by-build": "1.0.1",
+    "remove-saucelabs-jobs-by-build": "1.0.2",
     "simulate": "0.0.4",
     "tape": "4.2.2",
     "zuul": "git://github.com/defunctzombie/zuul.git#master"
