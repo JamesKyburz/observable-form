@@ -2,6 +2,8 @@
 
 Observable form
 
+[![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
+
 [![build status](https://secure.travis-ci.org/JamesKyburz/observable-form.svg)](http://travis-ci.org/JamesKyburz/observable-form)
 
 [![Sauce Test Status](https://saucelabs.com/browser-matrix/node-observable-form.svg)](https://saucelabs.com/u/node-observable-form)
