@@ -27,7 +27,7 @@
     "faucet": "0.0.1",
     "remove-saucelabs-jobs-by-build": "1.0.7",
     "simulate": "0.0.4",
-    "standard": "6.0.5",
+    "standard": "6.0.7",
     "tape": "4.4.0",
     "zuul": "git://github.com/defunctzombie/zuul.git#master"
   },
