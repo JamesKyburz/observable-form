@@ -9,6 +9,6 @@ browsers:
   - name: chrome
     version: latest
   - name: ipad
-    version: 7.1..latest
+    version: 8.4..latest
   - name: iphone
-    version: 7.1..latest
+    version: 8.4..latest
