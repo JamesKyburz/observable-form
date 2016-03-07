@@ -28,7 +28,7 @@
     "remove-saucelabs-jobs-by-build": "1.0.9",
     "simulate": "0.0.4",
     "standard": "6.0.7",
-    "tape": "4.5.0",
+    "tape": "4.5.1",
     "zuul": "git://github.com/defunctzombie/zuul.git#master"
   },
   "dependencies": {
