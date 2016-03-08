@@ -29,7 +29,7 @@
     "simulate": "0.0.4",
     "standard": "6.0.8",
     "tape": "4.5.1",
-    "zuul": "git://github.com/defunctzombie/zuul.git#master"
+    "zuul": "3.10.1"
   },
   "dependencies": {
     "inherits": "2.0.1",
