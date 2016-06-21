@@ -29,7 +29,8 @@
     "simulate": "0.0.4",
     "standard": "7.1.2",
     "tape": "4.6.0",
-    "zuul": "3.10.1"
+    "zuul": "3.10.1",
+    "zuul-ngrok": "4.0.0"
   },
   "dependencies": {
     "inherits": "2.0.1",
