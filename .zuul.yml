@@ -1,6 +1,4 @@
 ui: tape
-tunnel:
-  type: ngrok
 capabilities:
   record-video: false
   video-upload-on-pass: false
