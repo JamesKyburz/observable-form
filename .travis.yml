@@ -2,9 +2,8 @@ sudo: false
 language: node_js
 bundler_args: --retry 4
 node_js:
-- '5.5.0'
-script:
-  travis_retry npm run test-browsers
+- "6"
+script: travis_retry npm run test-browsers
 env:
   global:
   - secure: BnqR/CoUqgAjmpWia8Vz5s9DIlJ8rr3pkp33HpNhJ1+1x/qVJg0muWkazJ+/O4aqNJkZ66QmNiq+RJY2Nc4lpBmjN8ColZcI/tXwJ0L+oi/aRTLzYrwzKG5yklxbev2fZe2AQ95jkixPV1+xNOuIvZkT4V4dyCCaQLeK4wOIuew=
