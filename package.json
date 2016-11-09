@@ -26,7 +26,7 @@
     "domify": "1.4.0",
     "faucet": "0.0.1",
     "remove-saucelabs-jobs-by-build": "1.0.15",
-    "simulate": "0.0.4",
+    "simulate": "0.0.5",
     "standard": "8.4.0",
     "tape": "4.6.2",
     "zuul": "3.11.1"
