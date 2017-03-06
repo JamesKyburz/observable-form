@@ -11,7 +11,7 @@ var html =
   '<option>MASTERCARD<option>' +
   '<option>VISA<option>' +
   '<option>AMEX<option>' +
-  '<select>'
+  '<select>' +
 '</form>'
 
 var form = domify(html)
