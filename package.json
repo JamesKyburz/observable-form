@@ -27,7 +27,7 @@
     "faucet": "0.0.1",
     "remove-saucelabs-jobs-by-build": "1.0.18",
     "simulate": "0.0.5",
-    "standard": "9.0.0",
+    "standard": "9.0.2",
     "tape": "4.6.3",
     "zuul": "3.11.1",
     "zuul-ngrok": "4.0.0"
