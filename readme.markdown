@@ -1,14 +1,11 @@
 # observable-form
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/JamesKyburz/observable-form.svg)](https://greenkeeper.io/)
-
 Observable form
 
-[![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
-
+[![js-standard-style](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://github.com/feross/standard)
 [![build status](https://secure.travis-ci.org/JamesKyburz/observable-form.svg)](http://travis-ci.org/JamesKyburz/observable-form)
-
 [![Sauce Test Status](https://saucelabs.com/browser-matrix/node-observable-form.svg)](https://saucelabs.com/u/node-observable-form)
+[![Greenkeeper badge](https://badges.greenkeeper.io/JamesKyburz/observable-form.svg)](https://greenkeeper.io/)
 
 Try it out! [![view on requirebin](http://requirebin.com/badge.png)](http://requirebin.com/?gist=68acff1a09de5809378d)
 
