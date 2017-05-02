@@ -1,5 +1,7 @@
 # observable-form
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/JamesKyburz/observable-form.svg)](https://greenkeeper.io/)
+
 Observable form
 
 [![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
