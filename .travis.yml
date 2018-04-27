@@ -3,6 +3,7 @@ language: node_js
 bundler_args: --retry 5
 node_js:
 - '6'
+- '10'
 script:
   travis_retry npm run test-browsers
 env:
