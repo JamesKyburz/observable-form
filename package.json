@@ -28,7 +28,7 @@
     "remove-saucelabs-jobs-by-build": "1.0.20",
     "simulate": "0.0.5",
     "standard": "10.0.3",
-    "tape": "4.8.0",
+    "tape": "4.9.0",
     "zuul": "3.11.1",
     "zuul-ngrok": "4.0.0"
   },
