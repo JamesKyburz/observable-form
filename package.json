@@ -33,7 +33,7 @@
     "zuul-ngrok": "4.0.0"
   },
   "dependencies": {
-    "inherits": "2.0.3",
+    "inherits": "2.0.4",
     "observable": "2.1.4"
   }
 }
